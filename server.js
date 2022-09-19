@@ -28,7 +28,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-const port = 7580;
+const port = process.env.PORT || 5000 ;
 
 
 //landing page
