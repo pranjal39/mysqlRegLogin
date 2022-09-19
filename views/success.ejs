@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logged in</title>
+</head>
+<script>
+    
+</script>    
+<script type="text/javascript">
+    function preback(){
+        window.history.forward()
+    }
+    setTimeout("preback()",0);
+    window.onunload=function(){null};
+</script>
+
+<body>
+    <h1>Successfully logged in :) <br></h1>
+    <h4>Please Click Here To:- <a href="http://localhost:<%= port%>/log">LOG OUT</a></h4>
+</body>
+</html>
+  
